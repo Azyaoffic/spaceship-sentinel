@@ -1,0 +1,37 @@
+plugins {
+    id 'application'
+}
+
+group = 'org.example'
+version = '0.5'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'com.esotericsoftware', name: 'kryonet', version: '2.22.0-RC1'
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'ee.taltech.crossovergame.server.GlobalServer'
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources"
+        }
+    }
+}
+
+
+    tasks.withType(Copy).all{ duplicatesStrategy 'exclude' }
+
+

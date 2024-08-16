@@ -1,0 +1,58 @@
+
+ui.png
+size: 128, 128
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+textButton2.9Scroll
+  rotate: false
+  xy: 96, 27
+  size: 23, 93
+  split: 3, 3, 6, 6
+  orig: 23, 93
+  offset: 0, 0
+  index: -1
+inventory_cell_border
+  rotate: false
+  xy: 121, 114
+  size: 1, 6
+  split: 0, 0, 0, 0
+  orig: 1, 6
+  offset: 0, 0
+  index: -1
+textButton
+  rotate: false
+  xy: 1, 97
+  size: 93, 23
+  split: 5, 5, 4, 4
+  pad: 0, 0, 0, 0
+  orig: 93, 23
+  offset: 0, 0
+  index: -1
+textButton2
+  rotate: false
+  xy: 1, 72
+  size: 93, 23
+  split: 6, 6, 3, 3
+  pad: 0, 0, 4, 4
+  orig: 93, 23
+  offset: 0, 0
+  index: -1
+textButtonField4
+  rotate: false
+  xy: 1, 72
+  size: 93, 23
+  split: 10, 10, 3, 3
+  pad: 6, 6, 3, 3
+  orig: 93, 23
+  offset: 0, 0
+  index: -1
+textButton3
+  rotate: false
+  xy: 1, 47
+  size: 93, 23
+  split: 5, 5, 0, 0
+  pad: 0, 0, 4, 4
+  orig: 93, 23
+  offset: 0, 0
+  index: -1
