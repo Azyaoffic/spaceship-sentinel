@@ -121,4 +121,4 @@ Developers: Alexander Smirnov, Daniel Tjulinov, Viktor Dovbnia
 This project is licensed under the wtfpl License. See the [LICENSE](https://choosealicense.com/licenses/wtfpl/) file for details.
 
 ## Project status
-In development
+Not In development anymore
